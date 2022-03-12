@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "mythic-mounts",
+  "version": "${version}",
+  "name": "Mythic Mounts",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All Rights Reserved",
+  "icon": "assets/mythic-mounts/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.yahoo.chirpycricket.mythicmounts.MythicMountsClient"
+    ],
+    "main": [
+      "com.yahoo.chirpycricket.mythicmounts.MythicMounts"
+    ]
+  },
+  "mixins": [
+    "mythic-mounts.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.8",
+    "fabric": ">=0.46.1+1.18",
+    "minecraft": "1.18.x"
+  }
+}
