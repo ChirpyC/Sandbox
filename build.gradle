@@ -31,7 +31,7 @@ dependencies {
     // PSA: Some older mods, compiled on Loom 0.2.1, might have outdated Maven POMs.
     // You may need to force-disable transitiveness on them.
 
-    modImplementation "vazkii.patchouli:Patchouli:1.18-61-FABRIC-SNAPSHOT"
+    modImplementation "vazkii.patchouli:Patchouli:1.18.2-66-FABRIC-SNAPSHOT"
 
     repositories {
         maven { url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/' }
